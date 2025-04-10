@@ -1,0 +1,188 @@
+/* Auth main page  */
+.auth-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(216, 214, 214);
+    margin: 0;
+    padding: 0;
+}
+
+.auth-text {
+    font-size: 4.0em;
+    background: linear-gradient(to right, #911a80, #d42b45);
+    background-clip: text;
+    color: transparent;
+}
+
+.Option-signUp{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Option-signUp button{
+    align-self: center;
+    padding: 3% 6%;
+    font-size: 1.0rem;
+    margin: 0px 0px;
+    background-color: blueviolet;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    color: rgb(208, 204, 204);
+    cursor: pointer;
+}
+
+.Option-signUp button:hover {
+    color: white;
+}
+
+.Option-logIn{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Option-logIn button {
+    align-self: center;
+    padding: 3% 6%;
+    font-size: 1.0rem;
+    margin: 0px 0px;
+    background-color: blueviolet;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    color: rgb(208, 204, 204);
+    cursor: pointer;
+}
+
+.Option-logIn button:hover {
+    color: white;
+}
+
+/* login page  */
+.login-main {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 100%;
+    height: 100%;
+}
+
+.login-main h1 {
+    padding: 10% 0;
+    font-family: 'Times New Roman', Times, serif;
+    background: linear-gradient(to right, #911a80, #d42b45);
+    background-clip: text;
+    color: transparent;
+}
+
+.login-main p {
+    padding: 5% 0;
+    font-family: 'Times New Roman', Times, serif;
+    background: linear-gradient(to right, #392636, #6f0313);
+    background-clip: text;
+    color: transparent;
+
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.login-main input{
+    font-size: 1.1em;
+    border-radius: 20px;
+    padding: 4% 10%;
+    background-color: rgb(38, 22, 22);
+
+    color: white;
+    border: 0;
+    outline: none;
+}
+
+.login-main input:focus {
+    outline: none;
+}
+
+.login-main button {
+    align-self: center;
+    padding: 3% 6%;
+    font-size: 1.1rem;
+    margin: 20px 0px;
+    background-color: blueviolet;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    color: rgb(208, 204, 204);
+    cursor: pointer;
+}
+
+.login-main button:hover {
+    color: white;
+}
+
+/* Sign up page  */
+.signup-main {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 100%;
+    height: 100%;
+}
+
+.signup-main h1 {
+    padding: 10% 0;
+    font-family: 'Times New Roman', Times, serif;
+    background: linear-gradient(to right, #911a80, #d42b45);
+    background-clip: text;
+    color: transparent;
+
+    align-self: center;
+}
+
+.signup-main p {
+    padding: 5% 0;
+    font-family: 'Times New Roman', Times, serif;
+    background: linear-gradient(to right, #392636, #6f0313);
+    background-clip: text;
+    color: transparent;
+
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.signup-main input{
+    font-size: 1.1em;
+    border-radius: 20px;
+    padding: 4% 10%;
+    background-color: rgb(38, 22, 22);
+
+    color: white;
+    border: 0;
+    outline: none;
+}
+
+.signup-main input:focus {
+    outline: none;
+}
+
+.signup-main button {
+    align-self: center;
+    padding: 3% 6%;
+    font-size: 1.1rem;
+    margin: 20px 0px;
+    background-color: blueviolet;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    color: rgb(208, 204, 204);
+    cursor: pointer;
+}
+
+.signup-main button:hover {
+    color: white;
+}
