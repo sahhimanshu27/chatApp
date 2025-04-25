@@ -75,4 +75,6 @@ router.post('/login', async (req, res) => {
     }
 })
 
+// create routes to change stuff and delete stuff.
+
 export default router
